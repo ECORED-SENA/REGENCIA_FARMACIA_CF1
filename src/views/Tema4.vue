@@ -171,12 +171,158 @@
     
     p.mb-4 En el Diccionario de Marketing, de Cultural S.A., encontramos que “cliente” es un término que define a la persona u organización que realiza una compra. Puede estar comprando en su nombre, y disfrutar personalmente del bien adquirido, o comprar para otro, como el caso de los artículos infantiles. Resulta la parte de la población más importante de la compañía.
 
-    p.mb-4 Teniendo en cuenta lo anterior, podemos determinar que el cliente en salud es la persona que adquiere un servicio que necesita o desea para sí mismo o para otra persona. Es necesario recalcar que nuestro usuario es el motivo principal por el que se crean las instituciones de salud.
+    p(style='margin-bottom:70px') Teniendo en cuenta lo anterior, podemos determinar que el cliente en salud es la persona que adquiere un servicio que necesita o desea para sí mismo o para otra persona. Es necesario recalcar que nuestro usuario es el motivo principal por el que se crean las instituciones de salud.
+    
+    .row.mb-5(style='margin-inline:-3rem;background: linear-gradient(to bottom right, #c5f3f9, #e8fcff);')
+      .col-lg-12
+        .cardContainer.py-5.mb-5
+          .cardImage
+            figure
+              img(src='@/assets/curso/tema4/Tipos-cliente.jpg', alt='imagen de ambiente', style='width:860px;').mx-auto
+
+          .custom-crd.br-left
+              h4.mb-4 Tipos de cliente
+              p.mb-4 En el diario vivir de nuestras instituciones, manejamos diversidad o tipos de clientes que, si diferenciamos sus rasgos o características, será más fácil saber cómo los tratamos. 
+    
+    p.mb-5 Podemos clasificar los clientes de la siguiente manera:
+
+
+    ol.lista-ol--cuadro.mb-5
+      li 
+        .lista-ol--cuadro__vineta
+          span(style='font-weight: bold') a
+        b Según su nivel de fidelización:
+  
+
+    .row.justify-content-center.mb-5
+      .col-lg-3.vertical-cards--custom
+        figure.mb-4
+          img(src='@/assets/curso/tema4/icon1.svg', alt='imagen de ambiente', style='width:190px;').mx-auto
+        p.text-center.mb-4 #[strong Cliente ocasional: ] sus adquisiciones no tienen una frecuencia establecida.
+      .col-lg-3.vertical-cards--custom
+        figure.mb-4
+          img(src='@/assets/curso/tema4/icon2.svg', alt='imagen de ambiente', style='width:190px;').mx-auto
+        p.text-center.mb-4 #[strong Cliente de compra regular:] la mayor parte de las compras las realiza en el establecimiento, pero también hay momentos donde adquiere en otra parte.
+      .col-lg-3.vertical-cards--custom
+        figure.mb-4
+          img(src='@/assets/curso/tema4/icon3.svg', alt='imagen de ambiente', style='width:190px;').mx-auto
+        p.text-center.mb-4 #[strong Cliente de compra frecuente: ] normalmente adquiere los productos del establecimiento
+      .col-lg-3
+        figure.mb-4
+          img(src='@/assets/curso/tema4/icon4.svg', alt='imagen de ambiente', style='width:190px;').mx-auto
+        p.text-center.mb-4 #[strong Clientes-embajadores: ] son los clientes frecuentes que, además, hacen propaganda con sus conocidos, sobre la calidad de nuestros productos.
+
+    ol.lista-ol--cuadro.mb-5
+      li 
+        .lista-ol--cuadro__vineta
+          span(style='font-weight: bold') b
+        b Según su comportamiento:
+
+
+    //- LineaTiempoA debe ir acompañado de una de una de estas clases => 
+    //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
+    LineaTiempoA.color-secundario.mb-5(:datos="datosLineaTiempoA")
+
+
+    ol.lista-ol--cuadro.mb-5
+      li 
+        .lista-ol--cuadro__vineta
+          span(style='font-weight: bold') b
+        b Según satisfacción :
+
+    .tarjeta.tarjeta--slyder.p-4(style='margin-bottom:60px')
+      SlyderA    
+        div
+          figure
+            img(src='@/assets/curso/tema4/slyder1.svg', alt='imagen según su satisfacción: Clientes complacidos', style='width: 830px').mx-auto
+        div
+          figure
+            img(src='@/assets/curso/tema4/slyder2.svg', alt='imagen según su satisfacción: Clientes satisfechos', style='width: 830px').mx-auto
+        div
+          figure
+            img(src='@/assets/curso/tema4/slyder3.svg', alt='imagen según su satisfacción: Clientes indiferentes', style='width: 830px').mx-auto
+        div
+          figure
+            img(src='@/assets/curso/tema4/slyder4.svg', alt='imagen según su satisfacción: Clientes insatisfechos', style='width: 830px').mx-auto
+        div
+          figure
+            img(src='@/assets/curso/tema4/slyder5.svg', alt='imagen según su satisfacción: Clientes rehenes', style='width: 830px').mx-auto
+
+    h3.mb-4 La satisfacción del cliente
+    p.mb-4 La satisfacción del cliente es de vital importancia para una organización de salud. De su experiencia, depende que los servicios de la institución sean recomendados a otro usuario. Hay que mencionar además, que el nivel de satisfacción puede ser una de las claves para el aumento de rentabilidad de la organización.
+    figure.mb-5
+      .video
+        <iframe width="990" height="557" src="https://www.youtube.com/embed/NwkjS1RelyQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    p.mb-4 En la actualidad, los usuarios cuentan con diversas entidades (EPS), permitiéndoles escoger cuál de ellas es la mejor para su bienestar. Ahora bien, si obtienen una experiencia de atención satisfactoria, permitirán que aumente la cantidad de usuarios y mejorar la calidad de atención en la EPS.
+    p.mb-5 Según Larraín (2012), para lograr la satisfacción del cliente, se deben tener en cuenta las siguientes recomendaciones: 
+
+    .row.justify-content-center.mb-5
+      .col-lg-6
+        .row.p-4(style="background-color: #F5F8FA")
+          .col-lg-12.p-4(style='border: 2px solid #825ef5')
+            ul.lista-ul
+              li.mb-4
+                i.fas.fa-chevron-right
+                p.mb-0 Desarrollar, en primera instancia, productos o servicios acordes con sus necesidades.
+              li.mb-4
+                i.fas.fa-chevron-right
+                p.mb-0 Establecer una comunicación directa con ellos.
+              li.mb-4
+                i.fas.fa-chevron-right
+                p.mb-0 Desarrollar encuestas para recolectar opiniones acerca de los usos de esos productos y que sirvan para conocer el grado de satisfacción que tienen.
+              li.mb-4
+                i.fas.fa-chevron-right
+                p.mb-0 Utilizar esa información para mejorar los productos y servicios.
+              li.mb-4
+                i.fas.fa-chevron-right
+                p.mb-0 Ofrecer acciones para que los propios clientes puedan testear productos antes de sacarlos al mercado, y tener en cuenta esas opiniones para mejorar los productos desarrollados.
+              li.mb-4
+                i.fas.fa-chevron-right
+                p.mb-0 Mejorar la experiencia de usuario continuamente, a la hora de facilitar sus compras online, del contacto con atención al cliente, de los envíos, de la respuesta inmediata a problemas que puedan surgir.
+      .col-lg-6.align-self-end
+        figure.mt-4
+          img(src='@/assets/curso/tema4/img14.svg', alt='imagen de ambiente', style='width: 530px').mx-auto
     
     
-    .h3.mb-4 Tipos de cliente
-    p.mb-4 En el diario vivir de nuestras instituciones, manejamos diversidad o tipos de clientes que, si diferenciamos sus rasgos o características, será más fácil saber cómo los tratamos. 
-    p Podemos clasificar los clientes de la siguiente manera:
+      
+    
+    .row.justify-content-center.fondo-tarjeta--tema1V2.p-5
+      .col-lg-6.align-self-start
+        figure.mb-5
+          img(src='@/assets/curso/tema4/img15.svg', alt='imagen de ambiente', style='width: 430px').mx-auto
+      .col-lg-6
+        .row.p-4(style="background-color: #F5F8FA")
+          .col-lg-12.p-4(style='border: 2px solid #825ef5')
+            ul.lista-ul
+              li.mb-4
+                i.fas.fa-chevron-right
+                p.mb-0 El valor percibido por los productos no lo determina nunca la empresa, sino los propios consumidores.
+              li.mb-4
+                i.fas.fa-chevron-right
+                p.mb-0 Mantener siempre un trato cordial por parte de los empleados hacia los clientes.
+              li.mb-4
+                i.fas.fa-chevron-right
+                p.mb-0 La palabra discusión no debe nunca ponerse en práctica con los consumidores de un negocio; al contrario, deben plantear opciones cuando hay un problema de manifiesto.
+              li.mb-4
+                i.fas.fa-chevron-right
+                p.mb-0 No prometer cosas que no se puedan cumplir y que, a posteriori, resultan un fiasco para el público.
+              li.mb-4
+                i.fas.fa-chevron-right
+                p.mb-0 Evitar las esperas lo máximo posible. Si se trata de una tienda online, facilitar los pasos del carrito para una compra accesible. Si es un comercio físico, intentar eliminar las aglomeraciones y colas que cansan a los usuarios.
+              li.mb-4
+                i.fas.fa-chevron-right
+                p.mb-0 Conceder el beneficio de la duda a los clientes. Puede ser que en ocasiones se equivoquen, pero antes de juzgarlos, siempre es mejor poner de manifiesto esta actitud para no crear controversias.
+
+
+
+
+
+
+
+
+
+
 
 
 </template>
@@ -186,6 +332,58 @@ export default {
   name: 'Tema4',
   data: () => ({
     // variables de vue
+    datosLineaTiempoA: [
+      {
+        //titulo: 'Período Paleolítico',
+        texto:
+          ' <b> Cliente amable: </b>su actitud es amigable, asiente con un sí a todo lo que se le dice, pero no muestra claridad en las cosas, por lo que la mejor estrategia es enseñarle pocos productos.',
+      },
+      {
+        //titulo: 'Periodo Mesolítico',
+        texto:
+          '<b>Cliente entusiasta:</b> es muy conversador y no siempre sus temas tienen que ver con la compra del producto, por lo que el vendedor es quien debe enfocar la conversación en el producto, pero con sutileza. ',
+      },
+      {
+        //titulo: 'Período Paleolítico',
+        texto:
+          '<b>Cliente reflexivo:</b> le gusta tener las cosas claras y la información completa, antes de realizar cualquier compra, porque es muy organizado. Requiere ser atendido con paciencia, tranquilidad y datos precisos del producto.',
+      },
+      {
+        //titulo: 'Periodo Mesolítico',
+        texto:
+          '<b>Cliente indeciso:</b> no tiene muy claro si realizar la compra o no, por lo que pregunta mucho. Ante esto, se debe tener paciencia y explicarle todo lo que requiera sin presionarlo.',
+      },
+      {
+        //titulo: 'Periodo Neolítico',
+        texto:
+          '<b>Cliente tímido:</b> no se acerca mucho y no sostiene miradas con el vendedor. Requiere sentirse en confianza, por lo que no se debe mirar muy fijamente a los ojos, o hacerle preguntas personales.',
+      },
+      {
+        //titulo: 'Período Paleolítico',
+        texto:
+          '<b>Cliente silencioso:</b> es de pocas palabras, pero muy buen escuchante de todo lo que se le dice. No manifiesta de entrada lo que necesita. Se debe ser amable, darle opciones y mostrar interés.',
+      },
+      {
+        //titulo: 'Periodo Neolítico',
+        texto:
+          '<b>Cliente discutidor:</b> llega en actitud desafiante y soberbia. Ante este tipo de cliente se debe conservar la calma y evitar a toda costa caer en una discusión con él.',
+      },
+      {
+        //titulo: 'Periodo Mesolítico',
+        texto:
+          '<b>Cliente orgulloso:</b> es muy bueno con la labia y cree sabérselas todas, por lo que no permite que lo asesoren. Si permite un consejo, se le brinda con certeza y claridad.',
+      },
+      {
+        //titulo: 'Periodo Neolítico',
+        texto:
+          '<b>Cliente escéptico:</b> es desconfiado y prevenido, por lo que pregunta las ventajas y desventajas del producto, pues teme ser engañado. ',
+      },
+      {
+        //titulo: 'Periodo Neolítico',
+        texto:
+          '<b>Cliente ocupado:</b> desde el inicio, su saludo va acompañado de un “cuento con poco tiempo”, suele ser impaciente y querer que lo atiendan de inmediato.',
+      },
+    ],
   }),
   mounted() {
     this.$nextTick(() => {

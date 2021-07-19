@@ -70,19 +70,24 @@
     #t_1_1.titulo-segundo
       .h2 1.1 Obligaciones del Estad
 
-    .row.justify-content-center.mb-4
+
+    .row.justify-content-center.mb-3
       .col-lg-11
-        .tarjeta-avatar-b.mb-5
-          img(src='@/assets/curso/tema1/tema1-1/img1.svg' alt='AvatarTop', style='width:422px !important;')
-          .tarjeta.color-secundario
-            .p-4
-              p ¿Sabías que la obligación del Estado es la de garantizar a todas las personas habitantes de la nación, el derecho irrenunciable a la seguridad social integral?
+        .bloque-texto-custom.color-secundario.mb-5
+          .bloque-texto-custom__img(
+            :style="{'background-image': `url(${require('@/assets/curso/tema1/tema1-1/img1.svg')})`}")
+          .bloque-texto-custom__texto 
+            .row.justify-content-center
+                .col-10
+                  p.mb-0.mt-5
+                    b ¿Sabías que la obligación del Estado es la de garantizar a todas las personas habitantes de la nación, el derecho irrenunciable a la seguridad social integral?
+
+
 
     p.mb-5 Por eso, es responsable de respetar, proteger y garantizar el goce efectivo del derecho fundamental a la salud, y para lograrlo, deberá: 
 
-    
-    
-    
+
+
     .tarjeta.tarjeta--gris.p-4.mb-5
     
       PasosB.color-secundario
@@ -170,7 +175,7 @@
 
     p.mb-4 Aquí entra en juego el artículo 6 de la ley 100 de 1993, el cual deja en claro que El Sistema de Seguridad Social Integral, coordinará las instituciones y los recursos necesarios para alcanzar los siguientes objetivos:
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-4
       .col-lg-8
         .row.mb-3
           .col-lg-12
@@ -200,18 +205,19 @@
               .col.col-lg-10.align-self-center.py-4(style='')
                 p.mb-3  Garantizar la ampliación de cobertura hasta lograr que toda la población acceda al sistema, mediante mecanismos que, en desarrollo del principio constitucional de solidaridad, permitan que sectores sin la capacidad económica suficiente, como campesinos, indígenas y trabajadores independientes, artistas, deportistas, madres comunitarias, accedan al sistema y al otorgamiento de las prestaciones de forma integral.
       
-
       .col-lg-4.align-self-center
         figure
           img(src='@/assets/curso/tema1/tema1-1/img12.svg', alt='Imagen ambiental', style='width:287px;').mx-auto
 
-    .row.justify-content-center.mb-4
+
+    .row.justify-content-center.mb-3
       .col-lg-11
-        .tarjeta-avatar-b.mb-5
-          img(src='@/assets/curso/tema1/tema1-1/img13.svg' alt='AvatarTop', style='width:422px !important;')
-          .tarjeta.color-secundario
-            .p-4
-              p #[strong Recuerda:] el Sistema de Seguridad Social Integral ha sido instituido para unificar la normatividad y la planeación de la seguridad social, así como también para coordinar a las entidades prestatarias de las mismas, para obtener las finalidades propuestas en la presente ley. 
+        .bloque-texto-custom.color-secundario.mb-5
+          .bloque-texto-custom__img(
+            :style="{'background-image': `url(${require('@/assets/curso/tema1/tema1-1/img13.svg')})`}")
+          .bloque-texto-custom__texto
+            p.mb-0.mt-5 #[strong Recuerda:] el Sistema de Seguridad Social Integral ha sido instituido para unificar la normatividad y la planeación de la seguridad social, así como también para coordinar a las entidades prestatarias de las mismas, para obtener las finalidades propuestas en la presente ley.
+
 
 
     separador
@@ -295,13 +301,16 @@
 
     p.mb-5 La Corte Constitucional, bajo la sentencia T-293 del 2017, define la categoría “sujeto de especial protección constitucional”, como:
 
-
-    .row.justify-content-center.mb-4
+    .row.justify-content-center.mb-3
       .col-lg-11
-        .tarjeta-avatar-b.mb-5
-          img(src='@/assets/curso/tema1/tema1-3/img1.svg' alt='imagen ambiental', style='width:422px !important;')
-          .tarjeta.color-secundario
-            .p-4
+        .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5
+          .bloque-texto-g__img(
+            :style="{'background-image': `url(${require('@/assets/curso/tema1/tema1-3/img1.jpg')})`}")
+          .bloque-texto-g__texto.p-4
+            i.fas.fa-quote-right.mb-5.mt-4(style="color: #00BCD4 !important ;font-size:35px !important")
+            p.mb-4 “Una institución jurídica cuyo propósito fundamental es el de reducir los efectos nocivos de la desigualdad material. Todo lo anterior debe ser entendido como una acción positiva en favor de quienes, por razones particulares, se encuentran en una situación de debilidad manifiesta. No obstante, la condición del sujeto, de especial protección constitucional, no excluye ni elimina el deber de autogestión que tienen todos los individuos para hacer valer sus derechos”
+            p.text-end.mb-4
+              b Corte Constitucional, sentencia T-293 del 2017
 
 
 

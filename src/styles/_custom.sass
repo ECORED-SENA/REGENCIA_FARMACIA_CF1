@@ -70,7 +70,7 @@
   background-image: url(../assets/curso/tema1/tema1-2/fondo1.svg)
   margin-inline: -3rem 
   background-repeat: no-repeat
-  background-size: contain
+  background-size: cover
   background-position: bottom
 
 .tabs-a__tab
@@ -126,7 +126,7 @@
   background-size: contain
   background-position: top
 
-
+//TEMA 4////////////////////////////
 /*Imagen con puntos */
 .img-infografica.color-secundario .img-infografica__item__dot:before, .img-infografica.color-secundario .img-infografica__item__dot:after 
   background-color: #FF9D00
@@ -160,21 +160,108 @@
   border-bottom-left-radius: 20px
 
 
+.vertical-cards--custom
+  border-right: 1px solid #707070
+
+
+.linea-tiempo-a::before 
+  background: $color-acento-contenido
+
+.linea-tiempo-a.color-secundario .linea-tiempo-a__icon__container 
+  //background-color: #825ef5
+  background-image: url(../assets/curso/tema4/icon5.svg)
+  background-size: contain
+  background-position: bottom
+
+.tarjeta--slyder
+  background-color: #DEE4F0
+
+.slyder-a__bullets 
+  bottom: -18px
+  filter: opacity(0)
+
+.fa-chevron-right
+  color: $color-acento-botones
+
+
+// CUSTOM CARD IMAGE
+.cardContainer
+  width: 90%
+  max-width: 1224px
+  margin: 0 auto
+  display: flex
+  justify-content: center
+  align-items: center
+  //background-color:  #DEE4F0
+  
+
+.cardImage
+  width: 65%
+  
+.custom-crd
+  width: 35%
+  padding: 2rem  
+  box-shadow: 0px 3px 16px 0px rgba(0,0,0,0.4)
+  background-color: white
+
+.br-right
+  -webkit-border-radius: 35px
+  -webkit-border-bottom-right-radius: 0
+  -moz-border-radius: 35px
+  -moz-border-radius-bottomright: 0
+  border-radius: 35px
+  border-bottom-right-radius: 0
+
+.br-left
+  margin-left: -9.5rem
+  -webkit-border-radius: 35px
+  -webkit-border-bottom-left-radius: 0
+  -moz-border-radius: 35px
+  -moz-border-radius-bottomleft: 0
+  border-radius: 35px
+  border-bottom-left-radius: 0
+
+
+//TEXTO CON IMAGEN ESPECIAL CUSTOM TEMA1
+
+.bloque-texto-custom.color-secundario 
+  background-color: white
+
+.bloque-texto-custom 
+  position: relative
+  display: flex
+  justify-content: flex-end
+  padding: 3rem
+
+.bloque-texto-custom__img 
+  width: 420px
+  position: absolute
+  top: 0
+  left: 3%
+  bottom: 0
+  background-position: 50%
+  background-size: cover
+
+.bloque-texto-custom__texto
+  width: 90%
+  //476px opcion 2
+  background-color: #f1ecff
+  
+  padding-top: 5rem
+  padding-bottom: 7rem
+  padding-left: 20rem
+  padding-right: 6rem
+  //filter: drop-shadow(2px 4px 6px grey)
+  //text-align: center
+  border-top-left-radius: 20px
+  border-top-right-radius: 20px
+  border-bottom-left-radius: 20px
+  border-bottom-right-radius: 20px
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
+////////////////////////////////////////////////////////////////////////////////////////////
 
 @media screen and ( max-width: $bp-max-xs )
   .margen-negativo--derecha
@@ -195,6 +282,11 @@
   .bloque-texto-g__img 
     width: 100%
     left: 0
+  
+  .vertical-cards--custom
+    border-right: 0
+    border-bottom: 1px solid #707070
+
 
 @media screen and (max-width: $bp-max-md )
   
@@ -206,4 +298,54 @@
   .bloque-texto-g__img 
     width: 100%
     left: 0
+  .vertical-cards--custom
+    border-right: 0
+    border-bottom: 1px solid #707070
+
+@media only screen and ( max-width: 1200px)
+  .cardContainer
+    flex-direction: column
+  .cardImage
+    width: 100%
+  .custom-crd
+    width: 100%
+    margin: 0
+    margin-top: -7rem
+
+  .fondo-tarjeta--tema1
+    margin-inline: -1.4rem 
+
+  //TEXTO CON IMAGEN ESPECIAL CUSTOM TEMA1
+  .bloque-texto-custom 
+    position: relative
+    display: flex
+    justify-content: space-around
+    padding: 0
+
+  .bloque-texto-custom__img 
+    width: 100%
+    position: absolute
+    top: 0
+    left: 3%
+    bottom: 0
+    background-position: 50%
+    background-repeat: no-repeat
+    background-size: auto
+    z-index: -20
+
+
+  .bloque-texto-custom__texto
+    width: 90%
+    //476px opcion 2
+    background-color: #f1ecff
     
+    padding-top: 0rem
+    padding-bottom: 2rem
+    padding-left: 2rem
+    padding-right: 2rem
+    //filter: drop-shadow(2px 4px 6px grey)
+    //text-align: center
+    border-top-left-radius: 20px
+    border-top-right-radius: 20px
+    border-bottom-left-radius: 20px
+    border-bottom-right-radius: 20px
