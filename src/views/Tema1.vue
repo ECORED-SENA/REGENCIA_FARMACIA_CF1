@@ -20,7 +20,7 @@
           
       .col-lg-4.p-0
         figure
-          img(src="@/assets/curso/tema1/imgP.png", alt="imafen que acompaña la ley 100", style='width:592px;').mx-auto
+          img(src="@/assets/curso/tema1/imgP.jpg", alt="imafen que acompaña la ley 100", style='width:592px;').mx-auto
 
     p.mb-4 Además, tiene por objeto garantizar los derechos irrenunciables de la persona y la comunidad, para obtener la calidad de vida acorde con la dignidad humana, mediante la protección de las contingencias que las afecten.
     p.mb-5 Esta ley, en su Artículo 2, presenta los principios bajo los cuales se rige la Seguridad Social Integral, los cuales son presentados en la siguiente imagen.
@@ -94,55 +94,55 @@
 
         .row.justify-content-center(titulo="")
           .col-md-4
-            figure
-              img(src='@/assets/curso/tema1/tema1-1/img2.svg', alt='', style='width:400px').mx-auto
+            figure.mb-3
+              img(src='@/assets/curso/tema1/tema1-1/img2.jpg', alt='', style='width:400px').mx-auto
           
           .col-md-6.mb-4.mb-md-0.align-self-center.linea-pasos--custom
             p Abstenerse de afectar directa o indirectamente en el disfrute del derecho fundamental a la salud, de adoptar decisiones que lleven al deterioro de la salud de la población y de realizar cualquier acción u omisión que pueda resultar en un daño en la salud de las personas. 
         .row.justify-content-center(titulo="")
           .col-md-4
-            figure
-              img(src='@/assets/curso/tema1/tema1-1/img3.svg', alt='', style='width:420px').mx-auto
+            figure.mb-3
+              img(src='@/assets/curso/tema1/tema1-1/img3.jpg', alt='', style='width:420px').mx-auto
           
           .col-md-6.mb-4.mb-md-0.align-self-center.linea-pasos--custom
             p Formular y adoptar políticas de salud, dirigidas a garantizar el goce efectivo del derecho en igualdad de trato y oportunidades para toda la población, asegurando para su cumplimiento, la coordinación armónica de las acciones de todos los agentes del Sistema.
 
         .row.justify-content-center(titulo="")
           .col-md-4
-            figure
-              img(src='@/assets/curso/tema1/tema1-1/img4.svg', alt='', style='width:416px').mx-auto
+            figure.mb-3
+              img(src='@/assets/curso/tema1/tema1-1/img4.jpg', alt='', style='width:416px').mx-auto
           
           .col-md-6.mb-4.mb-md-0.align-self-center.linea-pasos--custom
             p Formular y adoptar políticas que propendan hacia la promoción de la salud, prevención y atención de la enfermedad y rehabilitación de sus secuelas, mediante acciones colectivas e individuales. 
         
         .row.justify-content-center(titulo="")
           .col-md-4
-            figure
-              img(src='@/assets/curso/tema1/tema1-1/img5.svg', alt='', style='width:420px;').mx-auto
+            figure.mb-3
+              img(src='@/assets/curso/tema1/tema1-1/img5.jpg', alt='', style='width:420px;').mx-auto
           
           .col-md-6.mb-4.mb-md-0.align-self-center.linea-pasos--custom
             p Establecer mecanismos para evitar la violación del derecho fundamental a la salud y determinar su régimen sancionatorio. 
         
         .row.justify-content-center(titulo="")
           .col-md-4
-            figure
-              img(src='@/assets/curso/tema1/tema1-1/img6.svg', alt='', style='width:420px;').mx-auto
+            figure.mb-3
+              img(src='@/assets/curso/tema1/tema1-1/img6.jpg', alt='', style='width:420px;').mx-auto
           
           .col-md-6.mb-4.mb-md-0.align-self-center.linea-pasos--custom
             p Ejercer una adecuada inspección, vigilancia y control, mediante un órgano y/o las entidades especializadas que se determinen para tal efecto. 
         
         .row.justify-content-center(titulo="")
           .col-md-4
-            figure
-              img(src='@/assets/curso/tema1/tema1-1/img7.svg', alt='', style='width:420px;').mx-auto
+            figure.mb-3
+              img(src='@/assets/curso/tema1/tema1-1/img7.jpg', alt='', style='width:420px;').mx-auto
           
           .col-md-6.mb-4.mb-md-0.align-self-center.linea-pasos--custom
             p Velar por el cumplimiento de los principios del derecho fundamental a la salud, en todo el territorio nacional, según las necesidades de salud de la población. 
         
         .row.justify-content-center(titulo="")
           .col-md-4
-            figure
-              img(src='@/assets/curso/tema1/tema1-1/img8.svg', alt='', style='width:420px;').mx-auto
+            figure.mb-3
+              img(src='@/assets/curso/tema1/tema1-1/img8.jpg', alt='', style='width:420px;').mx-auto
           
           .col-md-6.mb-4.mb-md-0.align-self-center.linea-pasos--custom
             p Realizar el seguimiento continuo de la evolución de las condiciones de salud de la población, a lo largo del ciclo de vida de las personas. 
@@ -150,24 +150,24 @@
         
         .row.justify-content-center(titulo="")
           .col-md-4
-            figure
-              img(src='@/assets/curso/tema1/tema1-1/img9.svg', alt='', style='width:420px;').mx-auto
+            figure.mb-3
+              img(src='@/assets/curso/tema1/tema1-1/img9.jpg', alt='', style='width:420px;').mx-auto
           
           .col-md-6.mb-4.mb-md-0.align-self-center.linea-pasos--custom
             p Realizar evaluaciones sobre los resultados de goce efectivo del derecho fundamental a la salud, en función de sus principios y sobre la forma como el Sistema avanza, de manera razonable y progresiva, en la garantía al derecho fundamental de la salud.
         
         .row.justify-content-center(titulo="")
           .col-md-4
-            figure
-              img(src='@/assets/curso/tema1/tema1-1/img10.svg', alt='', style='width:420px;').mx-auto
+            figure.mb-3
+              img(src='@/assets/curso/tema1/tema1-1/img10.jpg', alt='', style='width:420px;').mx-auto
           
           .col-md-6.mb-4.mb-md-0.align-self-center.linea-pasos--custom
             p Adoptar la regulación y las políticas indispensables para financiar, de manera sostenible, los servicios de salud y garantizar el flujo de los recursos para atender, de manera oportuna y suficiente, las necesidades en la salud de la población.
         
         .row.justify-content-center(titulo="")
           .col-md-4
-            figure
-              img(src='@/assets/curso/tema1/tema1-1/img11.svg', alt='', style='width:420px;').mx-auto
+            figure.mb-3
+              img(src='@/assets/curso/tema1/tema1-1/img11.jpg', alt='', style='width:420px;').mx-auto
           
           .col-md-6.mb-4.mb-md-0.align-self-center.linea-pasos--custom
             p Intervenir el mercado de medicamentos, dispositivos médicos e insumos en salud, con el fin de optimizar su utilización; evitar las inequidades en el acceso, asegurar la calidad de los mismos o, en general, cuando pueda derivarse una grave afectación de la prestación del servicio. 
@@ -241,46 +241,45 @@
         .row
           .col-xl-6.mb-4
             figure
-              img(src='@/assets/curso/tema1/tema1-2/img2.svg', alt='Sistema Integral de Información de la Protección Social (SISPRO)')
+              img(src='@/assets/curso/tema1/tema1-2/img2.png', alt='Sistema Integral de Información de la Protección Social (SISPRO)')
           .col-xl-6
             p A partir del 2014, el Sistema Integral de Información de la Protección Social (SISPRO), se encarga de suministrar un archivo que contiene la cantidad de afiliados al sistema de seguridad social en salud, tanto del régimen contributivo como del subsidiado. Además, para el régimen contributivo, se presentan las categorías activo o suspendido y si es cotizante, beneficiario o adicional. 
-
+      
       
       .tarjeta.color-secundario--borde.p-4(titulo="SuperFinanciera")
         h4.mb-5 Superintendencia Financiera de Colombia 
         .row
           .col-xl-6.mb-4
             figure
-              img(src='@/assets/curso/tema1/tema1-2/img3.svg', alt='Superintendencia Financiera de Colombia ')
+              img(src='@/assets/curso/tema1/tema1-2/img3.png', alt='Superintendencia Financiera de Colombia ')
           .col-xl-6
             p La Superintendencia Financiera de Colombia, se encarga de suministrar un archivo que contiene la cantidad de afiliados y pensionados, tanto al Régimen de Prima Media (RPM) administrado por Colpensiones, como al Régimen de Ahorro Individual con Solidaridad (RAIS), administrado por fondos privados de pensiones. 
-
+        
       .tarjeta.color-secundario--borde.p-4(titulo="MinTrabajo")
         h4.mb-5 Dirección de Riesgos Laborales del Ministerio de Trabajo
         .row
           .col-xl-6.mb-4
             figure
-              img(src='@/assets/curso/tema1/tema1-2/img4.svg', alt='Dirección de Riesgos Laborales del Ministerio de Trabajo')
+              img(src='@/assets/curso/tema1/tema1-2/img4.png', alt='Dirección de Riesgos Laborales del Ministerio de Trabajo')
           .col-xl-6
             p Suministra un archivo con la cantidad de trabajadores y empresas afiliadas al Sistema General de Riesgos Laborales en Colombia. 
-
       
       .tarjeta.color-secundario--borde.p-4(titulo="FINA")
         h4.mb-5 La Superintendencia Financiera de Colombia y el Fondo Nacional del Ahorro 
         .row
           .col-xl-6.mb-4
             figure
-              img(src='@/assets/curso/tema1/tema1-2/img5.svg', alt='La Superintendencia Financiera de Colombia y el Fondo Nacional del Ahorro ')
+              img(src='@/assets/curso/tema1/tema1-2/img5.png', alt='La Superintendencia Financiera de Colombia y el Fondo Nacional del Ahorro ')
           .col-xl-6
             p Suministran un archivo con la cantidad de afiliados a los fondos privados de cesantías, y al Fondo Nacional del Ahorro. 
-
+        
       
       .tarjeta.color-secundario--borde.p-4(titulo="Subsidio Familiar")
         h4.mb-5 La Superintendencia de Subsidio Familiar
         .row
           .col-xl-6.mb-4
             figure
-              img(src='@/assets/curso/tema1/tema1-2/img6.svg', alt='La Superintendencia de Subsidio Familiar')
+              img(src='@/assets/curso/tema1/tema1-2/img6.png', alt='La Superintendencia de Subsidio Familiar')
           .col-xl-6
             p Suministra un archivo con datos de la cantidad de trabajadores y empresas afiliadas al Sistema de Subsidio Familiar en Colombia. 
 
@@ -389,7 +388,7 @@
     p.mb-4 Para ampliar la información, descargue el PDF de la Ley Estatutaria 1751 de 2015, por medio de la cual se regula el derecho fundamental a la salud y se dictan otras disposiciones.
     .row.mb-5
       .col-lg-4
-        a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+        a.anexo.mb-4(:href="obtenerLink('/downloads/Anexo1_CF1_Ley1751.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto

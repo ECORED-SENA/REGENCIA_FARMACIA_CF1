@@ -73,7 +73,7 @@
     p.mb-4 Para ampliar la información, descargue el PDF de la Resolución 0429 de 2016, por medio de la cual se adopta la Política de Atención Integral de Salud.
     .row.mb-5
       .col-lg-4
-        a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+        a.anexo.mb-4(:href="obtenerLink('/downloads/Anexo2_CF1_Resolucion429.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
@@ -120,7 +120,7 @@
 
     .row.mb-5
       .col-lg-4
-        a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+        a.anexo.mb-4(:href="obtenerLink('/downloads/Anexo3_CF1_Resolucion2626.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto

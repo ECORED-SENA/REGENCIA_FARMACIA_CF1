@@ -13,7 +13,7 @@
         .row
           .col-lg-5.mb-4
             figure
-              img(src='@/assets/curso/tema4/img1.svg', alt='imagen de ambiente Mercado según la mercadotecnia', style="width:338px").mx-auto
+              img(src='@/assets/curso/tema4/img1.png', alt='imagen de ambiente Mercado según la mercadotecnia', style="width:338px").mx-auto
           .col-lg-7.align-self-center
             h4.mb-4 Mercado según la mercadotecnia:
             p.mb-4.px-3 Es el conjunto de consumidores que quieren, pueden y están dispuestos a comprar o vender un producto ofertado. En el ámbito de salud, este se caracteriza porque las personas que ofrecen sus productos o servicios pueden competir, sin ningún problema, por los consumidores de estos; y los consumidores, al mismo tiempo, pueden elegir qué clase de prestaciones o productos van a elegir.

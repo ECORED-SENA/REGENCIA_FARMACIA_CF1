@@ -12,7 +12,7 @@
       .row(style='margin-top:80px')
         .col-lg-4
           figure.mb-4
-            img(src='@/assets/curso/tema3/img1.svg', alt='iamgen de ambiente', style="width:377px").mx-auto
+            img(src='@/assets/curso/tema3/img1.png', alt='iamgen de ambiente', style="width:377px").mx-auto
         .col-lg-8
           .row
             .col-lg-9
