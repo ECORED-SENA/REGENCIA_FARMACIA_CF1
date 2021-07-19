@@ -19,7 +19,7 @@
             .h4.mb-0.text-end.mt-2 Ley 100 de 1993
           
       .col-lg-4.p-0
-        figure
+        figure(data-aos='zoom-out')
           img(src="@/assets/curso/tema1/imgP.jpg", alt="imafen que acompaña la ley 100", style='width:592px;').mx-auto
 
     p.mb-4 Además, tiene por objeto garantizar los derechos irrenunciables de la persona y la comunidad, para obtener la calidad de vida acorde con la dignidad humana, mediante la protección de las contingencias que las afecten.
@@ -206,8 +206,8 @@
                 p.mb-3  Garantizar la ampliación de cobertura hasta lograr que toda la población acceda al sistema, mediante mecanismos que, en desarrollo del principio constitucional de solidaridad, permitan que sectores sin la capacidad económica suficiente, como campesinos, indígenas y trabajadores independientes, artistas, deportistas, madres comunitarias, accedan al sistema y al otorgamiento de las prestaciones de forma integral.
       
       .col-lg-4.align-self-center
-        figure
-          img(src='@/assets/curso/tema1/tema1-1/img12.svg', alt='Imagen ambiental', style='width:287px;').mx-auto
+        figure(data-aos='zoom-out')
+          img(src='@/assets/curso/tema1/tema1-1/img12.png', alt='Imagen ambiental', style='width:287px;').mx-auto
 
 
     .row.justify-content-center.mb-3
@@ -289,7 +289,7 @@
         figure.mb-4
           img(src='@/assets/curso/tema1/tema1-2/img7.svg', alt='imagen ambiental', style='width:348px').mx-auto
       .col-lg-6
-        .cajon.color-secundario.p-5.mb-4
+        .cajon.color-secundario.p-5.mb-4(data-aos='fade-up')
           p El Ministerio de Salud y Protección Social, divulgará evaluaciones anuales sobre los resultados del goce efectivo del derecho fundamental a la salud, en función de los elementos esenciales de accesibilidad, disponibilidad, aceptabilidad y calidad y, con base en los resultados de dicha evaluación, se deberán implementar y diseñar políticas públicas tendientes a mejorar las condiciones de salud de la población.    
         p El informe sobre la evolución de los indicadores del goce efectivo del derecho fundamental a la salud, deberá ser presentado a todos los agentes del sistema. 
 
@@ -317,7 +317,7 @@
       .col-lg-10
         p.mb-4 También se ha señalado que existen unos sujetos de especial protección constitucional, quienes tienen derecho a una protección adicional por parte del Estado. Ellos son:
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos='flip-right')
       .col-lg-10(style="background-color: #c4b5f23a; border-radius:20px;")
         .row
           .col-lg-6.ps-5.pt-5
@@ -348,7 +348,7 @@
                 | Personas con disminuciones físicas o psíquicas. 
           .col.align-self-center
             figure.mb-4
-              img(src='@/assets/curso/tema1/tema1-3/img2.svg' alt='imagen ambiental', style='width:500px;').mx-auto
+              img(src='@/assets/curso/tema1/tema1-3/img2.png' alt='imagen ambiental', style='width:500px;').mx-auto
 
     .row.justify-content-center
       .col-lg-10
@@ -372,27 +372,31 @@
       .h2 1.4 Mecanismos de protección del derecho fundamental a la salud
 
 
-    .tarjeta.color-secundario.p-4.p-md-5.mb-5(style='background: linear-gradient(0deg,#e3f0f7,#ebe6fb)')
-      .row.justify-content-around.align-items-center
-        .col-8.col-sm-6.col-md-4.mb-4.mb-md-0
-          img(src="@/assets/curso/tema1/tema1-4/img1.svg", alt="La Ley 1751 de 2015", style="width:296;").mx-auto
-        .col-md.col-lg-6
-          .titulo-segundo.mb-4
-            h3 La Ley 1751 de 2015
-          p.mb-4 El Ministerio de Salud regula el derecho fundamental a la Salud, basada en unos principios y elementos esenciales que serán los encargados de impactar la prestación de los servicios y tecnologías en salud, con el fin de asegurar una atención acorde con las necesidades de la población. Es la primera ley de su clase para un derecho social y reconoce a la salud como un derecho fundamental.
-          p.mb-4 La siguiente imagen nos presenta los componentes de esta Ley.
-          a.boton.color-acento-botones(:href="obtenerLink('/downloads/infografía_autenticación.pdf')" target="_blank" type="application/pdf")
-            span.px-3 Ver
-            i.fas.fa-link
 
-    p.mb-4 Para ampliar la información, descargue el PDF de la Ley Estatutaria 1751 de 2015, por medio de la cual se regula el derecho fundamental a la salud y se dictan otras disposiciones.
-    .row.mb-5
-      .col-lg-4
-        a.anexo.mb-4(:href="obtenerLink('/downloads/Anexo1_CF1_Ley1751.pdf')" target="_blank")
-          .anexo__icono
-            img(src="@/assets/template/icono-pdf.svg")
-          .anexo__texto
-            p Ley Estatutaria 1751 de 2015.
+    .row.justify-content-center(style='background: linear-gradient(0deg,#F7F6FE,#F7F6FE)')
+      .col-lg-10.mb-5
+        .row.justify-content-center.pt-5
+          .col-lg-5.align-self-center
+            figure
+              img(src='@/assets/curso/tema1/tema1-4/img1.png' alt='imagen ambiental', style='width: 482px;').mx-auto
+          .col-lg-7
+            p.m-4 El Ministerio de Salud regula el derecho fundamental a la Salud, basada en unos principios y elementos esenciales que serán los encargados de impactar la prestación de los servicios y tecnologías en salud, con el fin de asegurar una atención acorde con las necesidades de la población. Es la primera ley de su clase para un derecho social y reconoce a la salud como un derecho fundamental.
+            p.m-4 La siguiente imagen nos presenta los componentes de esta Ley.
+            a.anexo.mb-4.mb-lg-0(href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
+              .anexo__icono
+                img(src="@/assets/template/icono-link.svg")
+              .anexo__texto
+                p.mb-0 Ley 1751 de 2015
+
+      .col-lg-10
+        p.mb-4 Para ampliar la información, descargue el PDF de la Ley Estatutaria 1751 de 2015, por medio de la cual se regula el derecho fundamental a la salud y se dictan otras disposiciones.
+        .row.mb-5
+          .col-lg-6
+            a.anexo.mb-4(:href="obtenerLink('/downloads/Anexo1_CF1_Ley1751.pdf')" target="_blank")
+              .anexo__icono
+                img(src="@/assets/template/icono-pdf.svg")
+              .anexo__texto
+                p Ley Estatutaria 1751 de 2015.
 
 
 

@@ -17,28 +17,28 @@
           img(src="@/assets/curso/tema2/img1.svg", alt="imagen de ambiente", style="width:406;").mx-auto
 
     .row.justify-content-center.mb-4
-      .col-lg-10
+      .col-lg-10(data-aos='fade-up')
         .tarjeta-avatar-b.mb-4
           img(src='@/assets/curso/tema2/img2.svg', alt='AvatarTop', style="width:60px")
           .tarjeta.color-secundario(style="background-color: #7e5ee312")
             .p-4.py-5
               p.mb-0 Mejorar e incrementar la disponibilidad de servicios públicos de salud, así como de programas específicos dirigidos a atender a la comunidad, la familia y las personas, de acuerdo con el perfil de salud y prioridades vigentes; con este fin, el Ministerio de Salud deberá contar con una cantidad suficiente de establecimientos. 
       
-      .col-lg-10
+      .col-lg-10(data-aos='fade-up')
         .tarjeta-avatar-b.mb-4
           img(src='@/assets/curso/tema2/img3.svg', alt='AvatarTop', style="width:60px")
           .tarjeta.color-secundario(style="background-color: #7e5ee312")
             .p-4.py-5
               p.mb-0 Crear condiciones de accesibilidad de servicios de salud a todos y todas sin discriminación alguna, con accesibilidad geográfica, económica y cultural, cumpliendo con el mandato constitucional y del código de salud de gratuidad de los servicios, y proporcionando a la población la información necesaria para el cuidado de su salud y la elegibilidad de los servicios que requiera.
 
-      .col-lg-10
+      .col-lg-10(data-aos='fade-up')
         .tarjeta-avatar-b.mb-4
           img(src='@/assets/curso/tema2/img4.svg', alt='AvatarTop', style="width:60px")
           .tarjeta.color-secundario(style="background-color: #7e5ee312")
             .p-4.py-5
               p.mb-0  Aceptabilidad de servicios de salud, los cuales deberán ser respetuosos de la ética médica y culturalmente apropiados, a la par que sensibles a los requisitos del género y el ciclo de vida.
       
-      .col-lg-10
+      .col-lg-10(data-aos='fade-up')
         .tarjeta-avatar-b.mb-4
           img(src='@/assets/curso/tema2/img5.svg', alt='AvatarTop', style="width:60px")
           .tarjeta.color-secundario(style="background-color: #7e5ee312")

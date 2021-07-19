@@ -12,7 +12,7 @@
       .col-lg-11
         .row
           .col-lg-5.mb-4
-            figure
+            figure(data-aos='zoom-out')
               img(src='@/assets/curso/tema4/img1.png', alt='imagen de ambiente Mercado según la mercadotecnia', style="width:338px").mx-auto
           .col-lg-7.align-self-center
             h4.mb-4 Mercado según la mercadotecnia:
@@ -40,7 +40,7 @@
         p Es el punto en donde se encuentran el consumidor, y el proveedor. 
 
 
-    .row.justify-content-center
+    .row.justify-content-center(data-aos='zoom-out')
       .col-lg-8
         .cajon.color-secundario.p-4.mb-4
           p En la actualidad, el mercadeo es considerado como una estrategia para incrementar las ventas, que combinado con la publicidad, con la excelencia del producto, un buen precio y ofrecer un buen servicio, de seguro proyecta los mejores resultados de la organización.
@@ -180,7 +180,7 @@
             figure
               img(src='@/assets/curso/tema4/Tipos-cliente.jpg', alt='imagen de ambiente', style='width:860px;').mx-auto
 
-          .custom-crd.br-left
+          .custom-crd.br-left(data-aos='flip-left', data-aos-easing='ease-out-cubic', data-aos-duration='1000')
               h4.mb-4 Tipos de cliente
               p.mb-4 En el diario vivir de nuestras instituciones, manejamos diversidad o tipos de clientes que, si diferenciamos sus rasgos o características, será más fácil saber cómo los tratamos. 
     
@@ -196,19 +196,19 @@
 
     .row.justify-content-center.mb-5
       .col-lg-3.vertical-cards--custom
-        figure.mb-4
+        figure.mb-4(data-aos='zoom-in')
           img(src='@/assets/curso/tema4/icon1.svg', alt='imagen de ambiente', style='width:190px;').mx-auto
         p.text-center.mb-4 #[strong Cliente ocasional: ] sus adquisiciones no tienen una frecuencia establecida.
       .col-lg-3.vertical-cards--custom
-        figure.mb-4
+        figure.mb-4(data-aos='zoom-in')
           img(src='@/assets/curso/tema4/icon2.svg', alt='imagen de ambiente', style='width:190px;').mx-auto
         p.text-center.mb-4 #[strong Cliente de compra regular:] la mayor parte de las compras las realiza en el establecimiento, pero también hay momentos donde adquiere en otra parte.
       .col-lg-3.vertical-cards--custom
-        figure.mb-4
+        figure.mb-4(data-aos='zoom-in')
           img(src='@/assets/curso/tema4/icon3.svg', alt='imagen de ambiente', style='width:190px;').mx-auto
         p.text-center.mb-4 #[strong Cliente de compra frecuente: ] normalmente adquiere los productos del establecimiento
       .col-lg-3
-        figure.mb-4
+        figure.mb-4(data-aos='zoom-in')
           img(src='@/assets/curso/tema4/icon4.svg', alt='imagen de ambiente', style='width:190px;').mx-auto
         p.text-center.mb-4 #[strong Clientes-embajadores: ] son los clientes frecuentes que, además, hacen propaganda con sus conocidos, sobre la calidad de nuestros productos.
 
@@ -258,7 +258,7 @@
     p.mb-5 Según Larraín (2012), para lograr la satisfacción del cliente, se deben tener en cuenta las siguientes recomendaciones: 
 
     .row.justify-content-center.mb-5
-      .col-lg-6
+      .col-lg-6(data-aos='fade-up')
         .row.p-4(style="background-color: #F5F8FA")
           .col-lg-12.p-4(style='border: 2px solid #825ef5')
             ul.lista-ul
@@ -294,7 +294,7 @@
       .col-lg-6
         .row.p-4(style="background-color: #F5F8FA")
           .col-lg-12.p-4(style='border: 2px solid #825ef5')
-            ul.lista-ul
+            ul.lista-ul(data-aos='fade-up')
               li.mb-4
                 i.fas.fa-chevron-right
                 p.mb-0 El valor percibido por los productos no lo determina nunca la empresa, sino los propios consumidores.
