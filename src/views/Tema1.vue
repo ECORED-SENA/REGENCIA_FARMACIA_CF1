@@ -382,7 +382,7 @@
           .col-lg-7
             p.m-4 El Ministerio de Salud regula el derecho fundamental a la Salud, basada en unos principios y elementos esenciales que serán los encargados de impactar la prestación de los servicios y tecnologías en salud, con el fin de asegurar una atención acorde con las necesidades de la población. Es la primera ley de su clase para un derecho social y reconoce a la salud como un derecho fundamental.
             p.m-4 La siguiente imagen nos presenta los componentes de esta Ley.
-            a.anexo.mb-4.mb-lg-0(href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
+            a.anexo.mb-4.mb-lg-0.enlace-custom(:href="obtenerLink('/downloads/Ley-Estatutaria.pdf')" target="_blank")
               .anexo__icono
                 img(src="@/assets/template/icono-link.svg")
               .anexo__texto

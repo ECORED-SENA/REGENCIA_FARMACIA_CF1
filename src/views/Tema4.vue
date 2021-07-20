@@ -194,7 +194,7 @@
         b Según su nivel de fidelización:
   
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center(style='margin-bottom:70px')
       .col-lg-3.vertical-cards--custom
         figure.mb-4(data-aos='zoom-in')
           img(src='@/assets/curso/tema4/icon1.svg', alt='imagen de ambiente', style='width:190px;').mx-auto
@@ -221,10 +221,10 @@
 
     //- LineaTiempoA debe ir acompañado de una de una de estas clases => 
     //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
-    LineaTiempoA.color-secundario.mb-5(:datos="datosLineaTiempoA")
+    //LineaTiempoA.color-secundario.mb-5(:datos="datosLineaTiempoA")
+    LineaTiempoC.color-secundario(:datos="datosLineaTiempoC" style='margin-bottom:70px')
 
-
-    ol.lista-ol--cuadro.mb-5
+    ol.lista-ol--cuadro.mb-5.mt-5
       li 
         .lista-ol--cuadro__vineta
           span(style='font-weight: bold') b
@@ -314,7 +314,7 @@
                 i.fas.fa-chevron-right
                 p.mb-0 Conceder el beneficio de la duda a los clientes. Puede ser que en ocasiones se equivoquen, pero antes de juzgarlos, siempre es mejor poner de manifiesto esta actitud para no crear controversias.
 
-
+    
 
 
 
@@ -328,58 +328,71 @@
 </template>
 
 <script>
+import LineaTiempoC from '../components/LineaTiempoC'
 export default {
   name: 'Tema4',
+  components: {
+    LineaTiempoC,
+  },
   data: () => ({
     // variables de vue
-    datosLineaTiempoA: [
+    datosLineaTiempoC: [
       {
-        //titulo: 'Período Paleolítico',
+        icono: require('@/assets/curso/tema4/icon5.svg'),
         texto:
           ' <b> Cliente amable: </b>su actitud es amigable, asiente con un sí a todo lo que se le dice, pero no muestra claridad en las cosas, por lo que la mejor estrategia es enseñarle pocos productos.',
       },
       {
         //titulo: 'Periodo Mesolítico',
+        icono: require('@/assets/curso/tema4/icon6.svg'),
         texto:
           '<b>Cliente entusiasta:</b> es muy conversador y no siempre sus temas tienen que ver con la compra del producto, por lo que el vendedor es quien debe enfocar la conversación en el producto, pero con sutileza. ',
       },
       {
         //titulo: 'Período Paleolítico',
+        icono: require('@/assets/curso/tema4/icon7.svg'),
         texto:
           '<b>Cliente reflexivo:</b> le gusta tener las cosas claras y la información completa, antes de realizar cualquier compra, porque es muy organizado. Requiere ser atendido con paciencia, tranquilidad y datos precisos del producto.',
       },
       {
         //titulo: 'Periodo Mesolítico',
+        icono: require('@/assets/curso/tema4/icon8.svg'),
         texto:
           '<b>Cliente indeciso:</b> no tiene muy claro si realizar la compra o no, por lo que pregunta mucho. Ante esto, se debe tener paciencia y explicarle todo lo que requiera sin presionarlo.',
       },
       {
         //titulo: 'Periodo Neolítico',
+        icono: require('@/assets/curso/tema4/icon9.svg'),
         texto:
           '<b>Cliente tímido:</b> no se acerca mucho y no sostiene miradas con el vendedor. Requiere sentirse en confianza, por lo que no se debe mirar muy fijamente a los ojos, o hacerle preguntas personales.',
       },
       {
         //titulo: 'Período Paleolítico',
+        icono: require('@/assets/curso/tema4/icon10.svg'),
         texto:
           '<b>Cliente silencioso:</b> es de pocas palabras, pero muy buen escuchante de todo lo que se le dice. No manifiesta de entrada lo que necesita. Se debe ser amable, darle opciones y mostrar interés.',
       },
       {
         //titulo: 'Periodo Neolítico',
+        icono: require('@/assets/curso/tema4/icon11.svg'),
         texto:
           '<b>Cliente discutidor:</b> llega en actitud desafiante y soberbia. Ante este tipo de cliente se debe conservar la calma y evitar a toda costa caer en una discusión con él.',
       },
       {
         //titulo: 'Periodo Mesolítico',
+        icono: require('@/assets/curso/tema4/icon12.svg'),
         texto:
           '<b>Cliente orgulloso:</b> es muy bueno con la labia y cree sabérselas todas, por lo que no permite que lo asesoren. Si permite un consejo, se le brinda con certeza y claridad.',
       },
       {
         //titulo: 'Periodo Neolítico',
+        icono: require('@/assets/curso/tema4/icon13.svg'),
         texto:
           '<b>Cliente escéptico:</b> es desconfiado y prevenido, por lo que pregunta las ventajas y desventajas del producto, pues teme ser engañado. ',
       },
       {
         //titulo: 'Periodo Neolítico',
+        icono: require('@/assets/curso/tema4/icon14.svg'),
         texto:
           '<b>Cliente ocupado:</b> desde el inicio, su saludo va acompañado de un “cuento con poco tiempo”, suele ser impaciente y querer que lo atiendan de inmediato.',
       },
