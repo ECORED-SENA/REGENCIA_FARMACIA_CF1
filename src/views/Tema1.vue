@@ -392,7 +392,7 @@
         p.mb-4 Para ampliar la información, descargue el PDF de la Ley Estatutaria 1751 de 2015, por medio de la cual se regula el derecho fundamental a la salud y se dictan otras disposiciones.
         .row.mb-5
           .col-lg-6
-            a.anexo.mb-4(:href="obtenerLink('/downloads/Anexo1_CF1_Ley1751.pdf')" target="_blank")
+            a.anexo.mb-4.enlace-custom(:href="obtenerLink('/downloads/Anexo1_CF1_Ley1751.pdf')" target="_blank")
               .anexo__icono
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto
