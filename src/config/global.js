@@ -351,13 +351,13 @@ export default {
         centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
       {
-        nombre: ['Sandra Carolina Duran Lopez'],
+        nombre: ['Sandra Carolina Durán Lopez'],
         cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Zuleidy María Ruiz Torres',
         cargo: 'Producción audiovisual',
         centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
