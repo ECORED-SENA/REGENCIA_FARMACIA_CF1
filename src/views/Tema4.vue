@@ -16,7 +16,7 @@
               img(src='@/assets/curso/tema4/img1.png', alt='imagen de ambiente Mercado según la mercadotecnia', style="width:338px").mx-auto
           .col-lg-7.align-self-center
             h4.mb-4 Mercado según la mercadotecnia:
-            p.mb-4.px-3 Es el conjunto de consumidores que quieren, pueden y están dispuestos a comprar o vender un producto ofertado. En el ámbito de salud, este se caracteriza porque las personas que ofrecen sus productos o servicios pueden competir, sin ningún problema, por los consumidores de estos; y los consumidores, al mismo tiempo, pueden elegir qué clase de prestaciones o productos van a elegir.
+            p.mb-4.pe-4 Es el conjunto de consumidores que quieren, pueden y están dispuestos a comprar o vender un producto ofertado. En el ámbito de salud, este se caracteriza porque las personas que ofrecen sus productos o servicios pueden competir, sin ningún problema, por los consumidores de estos; y los consumidores, al mismo tiempo, pueden elegir qué clase de prestaciones o productos van a elegir.
 
     p.mb-4 En este orden de ideas:
 
@@ -128,7 +128,7 @@
               img(src='@/assets/curso/tema4/img9.svg', alt='imagen de ambiente', style='width:285px;').mx-auto
           
           .col-md-7.mb-4.mb-md-0.align-self-center
-            p esta muestra hacia dónde se encamina la organización y, en un tiempo determinado, en qué se debe convertir, teniendo presente todos los diferentes escenarios que en el camino, y a futuro, pueden aparecer.
+            p Esta muestra hacia dónde se encamina la organización y, en un tiempo determinado, en qué se debe convertir, teniendo presente todos los diferentes escenarios que en el camino, y a futuro, pueden aparecer.
         
         .row.justify-content-center(titulo="Objetivos")
           .col-md-4

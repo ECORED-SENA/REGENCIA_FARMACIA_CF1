@@ -22,45 +22,57 @@
         figure(data-aos='zoom-out')
           img(src="@/assets/curso/tema1/imgP.jpg", alt="imafen que acompaña la ley 100", style='width:592px;').mx-auto
 
-    p.mb-4 Además, tiene por objeto garantizar los derechos irrenunciables de la persona y la comunidad, para obtener la calidad de vida acorde con la dignidad humana, mediante la protección de las contingencias que las afecten.
-    p.mb-5 Esta ley, en su Artículo 2, presenta los principios bajo los cuales se rige la Seguridad Social Integral, los cuales son presentados en la siguiente imagen.
+    p.mb-4 Además, tiene por #[strong objeto] garantizar los derechos irrenunciables de la persona y la comunidad, para obtener la calidad de vida acorde con la dignidad humana, mediante la protección de las contingencias que las afecten.
+    p.mb-5 Esta ley, en su Artículo 2, presenta los #[strong principios] bajo los cuales se rige la Seguridad Social Integral, los cuales son presentados en la siguiente imagen.
 
     .h4.mb-5 Principios bajo los cuales se rige la Seguridad Social Integral
     .h4.mb-5.text-center PRINCIPIOS: LEY 100 DE 1993
     
     .row.justify-content-center.mb-4.fondo-tarjeta--tema1
-      .col-lg-8
-        .row.mb-5
-          .col-md-4
-            figure.mb-2
-              img(src="@/assets/curso/tema1/icon1.svg", alt="eficiencia", style='width:190px;').mx-auto
+      .col-lg-9
+        .row.mb-5(style="justify-content:space-around")
+          .col-md-3
+            .row.justify-content-center
+              .col-auto
+                figure.mb-2
+                  img(src="@/assets/curso/tema1/icon1.svg", alt="eficiencia", style='width:190px;').mx-auto
             h4.text-center.mb-4 EFICIENCIA
             P Es la mejor utilización social y económica de los recursos administrativos, técnicos y financieros, disponibles para que los beneficios a los que da derecho la seguridad social sean prestados de forma adecuada, oportuna y suficiente.
-          .col-md-4
-            figure.mb-2
-              img(src="@/assets/curso/tema1/icon2.svg", alt="universalidad", style='width:190px;').mx-auto
+          .col-md-3
+            .row.justify-content-center
+              .col-auto
+                figure.mb-2
+                  img(src="@/assets/curso/tema1/icon2.svg", alt="universalidad", style='width:190px;').mx-auto
             h4.text-center.mb-4 UNIVERSALIDAD 
             P Es la garantía de la protección para todas las personas, sin ninguna discriminación, en todas las etapas de su vida.
-          .col-md-4
-            figure.mb-2
-              img(src="@/assets/curso/tema1/icon3.svg", alt="eficiencia", style='width:190px;').mx-auto
+          .col-md-3
+            .row.justify-content-center
+              .col-auto
+                figure.mb-2
+                  img(src="@/assets/curso/tema1/icon3.svg", alt="eficiencia", style='width:190px;').mx-auto
             h4.text-center.mb-4 SOLIDARIDAD
             P Es la práctica de la mutua ayuda entre las personas, las generaciones, los sectores económicos, las regiones y las comunidades, bajo el principio del más fuerte hacia el más débil. Los recursos provenientes del erario público en el sistema de seguridad, se aplicarán siempre a los grupos de población más vulnerables.
         
-        .row.mb-5
-          .col-md-4
-            figure.mb-2
-              img(src="@/assets/curso/tema1/icon4.svg", alt="ingegralidad", style='width:190px;').mx-auto
+        .row.mb-5(style="justify-content:space-around")
+          .col-md-3
+            .row.justify-content-center
+              .col-auto
+                figure.mb-2
+                  img(src="@/assets/curso/tema1/icon4.svg", alt="ingegralidad", style='width:190px;').mx-auto
             h4.text-center.mb-4 INTEGRALIDAD
-            P Es la mejor utilización social y económica de los recursos administrativos, técnicos y financieros, disponibles para que los beneficios a los que da derecho la seguridad social sean prestados de forma adecuada, oportuna y suficiente.
-          .col-md-4
-            figure.mb-2
-              img(src="@/assets/curso/tema1/icon5.svg", alt="unidad", style='width:190px;').mx-auto
+            P Es la cobertura de todas las contingencias que afectan la salud, la capacidad económica y, en general, las condiciones de vida de toda la población. Para este efecto, cada quien contribuirá según su capacidad y recibirá lo necesario para atender sus contingencias, amparadas por esta ley.
+          .col-md-3
+            .row.justify-content-center
+              .col-auto
+                figure.mb-2
+                  img(src="@/assets/curso/tema1/icon5.svg", alt="unidad", style='width:190px;').mx-auto
             h4.text-center.mb-4 UNIDAD 
             P Es la articulación de políticas, instituciones, regímenes, procedimientos y prestaciones, para alcanzar los fines de la seguridad social.
-          .col-md-4
-            figure.mb-2
-              img(src="@/assets/curso/tema1/icon6.svg", alt="participación", style='width:190px;').mx-auto
+          .col-md-3
+            .row.justify-content-center
+              .col-auto
+                figure.mb-2
+                  img(src="@/assets/curso/tema1/icon6.svg", alt="participación", style='width:190px;').mx-auto
             h4.text-center.mb-4 PARTICIPACIÓN
             P Es la intervención de la comunidad, a través de los beneficiarios de la seguridad social, en la organización, control, gestión y fiscalización de las instituciones y del sistema en su conjunto.
 
@@ -68,7 +80,7 @@
 
     separador
     #t_1_1.titulo-segundo
-      .h2 1.1 Obligaciones del Estad
+      .h2 1.1 Obligaciones del Estado
 
 
     .row.justify-content-center.mb-3
@@ -173,7 +185,7 @@
             p Intervenir el mercado de medicamentos, dispositivos médicos e insumos en salud, con el fin de optimizar su utilización; evitar las inequidades en el acceso, asegurar la calidad de los mismos o, en general, cuando pueda derivarse una grave afectación de la prestación del servicio. 
         
 
-    p.mb-4 Aquí entra en juego el artículo 6 de la ley 100 de 1993, el cual deja en claro que El Sistema de Seguridad Social Integral, coordinará las instituciones y los recursos necesarios para alcanzar los siguientes objetivos:
+    p.mb-4 Aquí entra en juego el artículo 6 de la ley 100 de 1993, el cual deja en claro que el Sistema de Seguridad Social Integral, coordinará las instituciones y los recursos necesarios para alcanzar los siguientes objetivos:
 
     .row.justify-content-center.mb-4
       .col-lg-8
@@ -237,7 +249,7 @@
 
     TabsA.color-acento-contenido(style='margin-bottom:80px;')
       .tarjeta.color-secundario--borde.p-4(titulo="SISPRO")
-        h4.mb-5 Sistema Integral de Información de la Protección Social (SISPRO) 
+        h4.mb-5 Sistema Integrado de Información de la Protección Social
         .row
           .col-xl-6.mb-4
             figure
@@ -264,7 +276,7 @@
           .col-xl-6
             p Suministra un archivo con la cantidad de trabajadores y empresas afiliadas al Sistema General de Riesgos Laborales en Colombia. 
       
-      .tarjeta.color-secundario--borde.p-4(titulo="FINA")
+      .tarjeta.color-secundario--borde.p-4(titulo="SFC/FNA")
         h4.mb-5 La Superintendencia Financiera de Colombia y el Fondo Nacional del Ahorro 
         .row
           .col-xl-6.mb-4
@@ -363,8 +375,16 @@
 
 
     p.mb-4 En el caso de las mujeres en estado de embarazo, se adoptarán medidas para garantizar el acceso a los servicios de salud que requieren durante el embarazo y, con posterioridad al mismo y para garantizar que puedan ejercer sus derechos fundamentales, en el marco del acceso a servicios de salud.
-    p.mb-4 #[strong Parágrafo 1º. ] “Las víctimas de cualquier tipo de violencia sexual tienen derecho a acceder, de manera prioritaria, a los tratamientos sicológicos y siquiátricos que requieran.
-    p.mb-4 #[strong Parágrafo 2°. ] En el caso de las personas víctimas de la violencia y del conflicto armado, el Estado desarrollará el programa de atención psicosocial y salud integral, a las víctimas de que trata el artículo 137 de la Ley 1448 de 2011.
+    p.mb-4 En esta sentencia también encontramos:
+    .row.justify-content-center
+      .col-lg-11
+        ul.lista-ul
+          li.mb-4
+            i.fas.fa-angle-right
+            p.mb-0 #[strong Parágrafo 1º. ] Las víctimas de cualquier tipo de violencia sexual tienen derecho a acceder, de manera prioritaria, a los tratamientos sicológicos y siquiátricos que requieran.
+          li 
+            i.fas.fa-angle-right
+            p.mb-0 #[strong Parágrafo 2°. ] En el caso de las personas víctimas de la violencia y del conflicto armado, el Estado desarrollará el programa de atención psicosocial y salud integral, a las víctimas de que trata el artículo 137 de la Ley 1448 de 2011.
 
 
     separador
