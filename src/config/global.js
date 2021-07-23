@@ -3,7 +3,7 @@ export default {
     componenteFormativo: 'Sistema General de Seguridad Social',
     descripcionCurso:
       'En este componente formativo se abordan los conocimientos de la competencia orientar al usuario, referentes a la normatividad legal vigente del Sistema General de Seguridad Social, la cual está regida por el Gobierno colombiano y por intermediarios como el Ministerio de Salud y Protección Social, con el fin que los aprendices se enfoquen en identificar las necesidades y expectativas de los usuarios que asisten al servicio de salud.',
-    imagenBannerPrincipal: require('@/assets/curso/banner-principal.svg'),
+    imagenBannerPrincipal: require('@/assets/curso/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner.svg'),
   },
   menuPrincipal: {
