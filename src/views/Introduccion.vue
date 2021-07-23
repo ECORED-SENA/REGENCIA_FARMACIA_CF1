@@ -9,20 +9,21 @@
           i.fas.fa-info
       h1 Introducción
     
+    figure.mb-5
+      .video
+        <iframe width="853" height="480" src="https://www.youtube.com/embed/hVnsxgiLT-I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    .row.mb-4
-      .col-lg-6
-        p.mb-4 El Sistema General de Seguridad Social en Colombia, fue creado de forma general y está regido por el Gobierno colombiano y por intermediarios como el Ministerio de Salud y Protección Social; tema de carácter universal, fundado con el propósito de garantizar el acceso a la seguridad social de todos los colombianos.
-        p.mb-4 En este orden de ideas, el artículo 48 de la Constitución Política de Colombia se refiere a la seguridad social como un servicio público de carácter obligatorio que se prestará bajo el control del Estado, basado en los principios de universalidad, eficiencia y solidaridad, y es enfático al afirmar que no se podrán destinar ni utilizar recursos de las instituciones de la seguridad social, para otros fines.
-        .cajon.color-secundario.p-4(style='margin-bottom:30px;')
-          p En este componente formativo, se abordarán diferentes temas relacionados con el Sistema de Seguridad Social en Colombia, con los principios y obligaciones del Estado, los modelos de atención en salud, los clientes, entre otros; temas que permitirán identificar y entender el concepto exacto en pro de un mejoramiento continuo, tanto individual como colectivo.
-        
-        p.text-center #[strong ¡Muchos éxitos en este proceso de aprendizaje!]
-      .col-lg-6.align-self-center
-        figure.mb-5
-          img(src="@/assets/curso/intro.svg", alt="Imagen que acompaña", style='width:664px;').mx-auto
+
+    .row.mb-2
+      .col-lg-7.align-self-center     
+        .cajon.color-secundario.p-4
+          p.mb-0 En este componente formativo, se abordarán diferentes temas relacionados con el Sistema de Seguridad Social en Colombia, con los principios y obligaciones del Estado, los modelos de atención en salud, los clientes, entre otros; temas que permitirán identificar y entender el concepto exacto en pro de un mejoramiento continuo, tanto individual como colectivo.
+
+      .col-lg-5.align-self-center
+        figure.mb-2
+          img(src="@/assets/curso/intro.svg", alt="Imagen que acompaña", style='width:320px;').mx-auto
       
-
+    p.ps-4 #[strong ¡Muchos éxitos en este proceso de aprendizaje!]
 
 
 </template>

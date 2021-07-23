@@ -99,11 +99,9 @@
     p.mb-5 Por eso, es responsable de respetar, proteger y garantizar el goce efectivo del derecho fundamental a la salud, y para lograrlo, deberá: 
 
 
-
-    .tarjeta.tarjeta--gris.p-4.mb-5
     
+    .tarjeta.tarjeta--gris.p-4.mb-5
       PasosB.color-secundario
-
         .row.justify-content-center(titulo="")
           .col-md-4
             figure.mb-3
